@@ -1,0 +1,74 @@
+[{"stream_name":"stdout","time":11.34069985,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 60.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":11.41398014,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 394.3/394.3 kB 22.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":11.494634285,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 604.4/604.4 kB 24.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":12.015843694,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.9/53.9 MB 38.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":12.092677903,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 846.4/846.4 kB 41.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":32.11684101,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":32.116863468,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":54.519085903,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":111.460125315,"data":"\rGenerating val split:   0%|          | 0/8811 [00:00\u003c?, ? examples/s]\rGenerating val split:   6%|▌         | 500/8811 [00:00\u003c00:01, 4225.33 examples/s]\rGenerating val split:  15%|█▍        | 1300/8811 [00:00\u003c00:01, 5311.49 examples/s]\rGenerating val split:  25%|██▍       | 2200/8811 [00:00\u003c00:01, 6316.27 examples/s]\rGenerating val split:  35%|███▌      | 3103/8811 [00:00\u003c00:00, 5975.06 examples/s]\rGenerating val split:  43%|████▎     | 3803/8811 [00:00\u003c00:00, 6036.29 examples/s]\rGenerating val split:  51%|█████     | 4506/8811 [00:00\u003c00:00, 4790.66 examples/s]\rGenerating val split:  58%|█████▊    | 5106/8811 [00:01\u003c00:00, 4326.62 examples/s]\rGenerating val split:  65%|██████▍   | 5706/8811 [00:01\u003c00:00, 3975.29 examples/s]\rGenerating val split:  72%|███████▏  | 6306/8811 [00:01\u003c00:00, 3908.03 examples/s]\rGenerating val split:  80%|███████▉  | 7009/8811 [00:01\u003c00:00, 3889.62 examples/s]\rGenerating val split:  86%|████████▋ | 7609/8811 [00:01\u003c00:00, 4151.01 examples/s]\rGenerating val split:  93%|█████████▎| 8209/8811 [00:01\u003c00:00, 4320.12 examples/s]\rGenerating val split: 100%|██████████| 8811/8811 [00:01\u003c00:00, 4207.01 examples/s]\rGenerating val split: 100%|██████████| 8811/8811 [00:01\u003c00:00, 4511.31 examples/s]\n"}
+,{"stream_name":"stderr","time":112.647894964,"data":"\rGenerating test split:   0%|          | 0/5000 [00:00\u003c?, ? examples/s]\rGenerating test split:   8%|▊         | 400/5000 [00:00\u003c00:01, 3376.21 examples/s]\rGenerating test split:  20%|██        | 1000/5000 [00:00\u003c00:00, 4172.84 examples/s]\rGenerating test split:  32%|███▏      | 1600/5000 [00:00\u003c00:00, 4404.84 examples/s]\rGenerating test split:  42%|████▏     | 2100/5000 [00:00\u003c00:00, 4201.57 examples/s]\rGenerating test split:  52%|█████▏    | 2600/5000 [00:00\u003c00:00, 3842.39 examples/s]\rGenerating test split:  64%|██████▍   | 3200/5000 [00:00\u003c00:00, 4079.58 examples/s]\rGenerating test split:  74%|███████▍  | 3700/5000 [00:00\u003c00:00, 4112.15 examples/s]\rGenerating test split:  86%|████████▌ | 4300/5000 [00:01\u003c00:00, 4369.41 examples/s]\rGenerating test split:  96%|█████████▌| 4800/5000 [00:01\u003c00:00, 4343.75 examples/s]\rGenerating test split: 100%|██████████| 5000/5000 [00:01\u003c00:00, 4219.63 examples/s]\n"}
+,{"stream_name":"stderr","time":112.912857076,"data":"\rGenerating testA split:   0%|          | 0/1975 [00:00\u003c?, ? examples/s]\rGenerating testA split:  35%|███▌      | 700/1975 [00:00\u003c00:00, 6232.91 examples/s]\rGenerating testA split:  76%|███████▌  | 1500/1975 [00:00\u003c00:00, 7055.32 examples/s]\rGenerating testA split: 100%|██████████| 1975/1975 [00:00\u003c00:00, 7504.70 examples/s]\n"}
+,{"stream_name":"stderr","time":113.162527744,"data":"\rGenerating testB split:   0%|          | 0/1810 [00:00\u003c?, ? examples/s]\rGenerating testB split:  44%|████▍     | 800/1810 [00:00\u003c00:00, 6370.85 examples/s]\rGenerating testB split:  94%|█████████▍| 1700/1810 [00:00\u003c00:00, 7309.36 examples/s]\rGenerating testB split: 100%|██████████| 1810/1810 [00:00\u003c00:00, 7266.43 examples/s]\n"}
+,{"stream_name":"stdout","time":135.916159753,"data":"cal 1250  test 2000  on cuda\n"}
+,{"stream_name":"stderr","time":182.834402278,"data":"\rFetching 2 files:   0%|          | 0/2 [00:00\u003c?, ?it/s]\rFetching 2 files:  50%|█████     | 1/2 [00:35\u003c00:35, 35.89s/it]\rFetching 2 files: 100%|██████████| 2/2 [00:41\u003c00:00, 18.20s/it]\rFetching 2 files: 100%|██████████| 2/2 [00:41\u003c00:00, 20.86s/it]\n"}
+,{"stream_name":"stderr","time":186.87768716,"data":"\rLoading weights:   0%|          | 0/824 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/824 [00:00\u003c11:02,  1.24it/s]\rLoading weights:  12%|█▏        | 101/824 [00:00\u003c00:04, 151.68it/s]\rLoading weights:  19%|█▉        | 160/824 [00:01\u003c00:04, 161.67it/s]\rLoading weights:  24%|██▍       | 200/824 [00:01\u003c00:03, 159.82it/s]\rLoading weights:  28%|██▊       | 231/824 [00:01\u003c00:03, 166.10it/s]\rLoading weights:  31%|███▏      | 258/824 [00:01\u003c00:03, 152.79it/s]\rLoading weights:  34%|███▍      | 280/824 [00:02\u003c00:03, 156.06it/s]\rLoading weights:  37%|███▋      | 303/824 [00:02\u003c00:03, 162.67it/s]\rLoading weights:  39%|███▉      | 323/824 [00:02\u003c00:03, 156.98it/s]\rLoading weights:  41%|████▏     | 341/824 [00:02\u003c00:03, 139.85it/s]\rLoading weights:  44%|████▍     | 363/824 [00:02\u003c00:03, 150.94it/s]\rLoading weights:  46%|████▌     | 380/824 [00:02\u003c00:02, 154.59it/s]\rLoading weights:  49%|████▊     | 400/824 [00:02\u003c00:02, 156.93it/s]\rLoading weights:  51%|█████▏    | 423/824 [00:02\u003c00:02, 166.91it/s]\rLoading weights:  58%|█████▊    | 478/824 [00:03\u003c00:01, 259.62it/s]\rLoading weights:  66%|██████▋   | 546/824 [00:03\u003c00:00, 350.98it/s]\rLoading weights:  75%|███████▌  | 618/824 [00:03\u003c00:00, 428.18it/s]\rLoading weights:  83%|████████▎ | 684/824 [00:03\u003c00:00, 485.56it/s]\rLoading weights:  90%|█████████ | 742/824 [00:03\u003c00:00, 507.28it/s]\rLoading weights:  98%|█████████▊| 804/824 [00:03\u003c00:00, 531.98it/s]\rLoading weights: 100%|██████████| 824/824 [00:03\u003c00:00, 226.87it/s]\n"}
+,{"stream_name":"stderr","time":189.654351358,"data":"/usr/local/lib/python3.13/dist-packages/transformers/models/qwen2_vl/image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`\n"}
+,{"stream_name":"stderr","time":189.654401918,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":193.977575957,"data":"  cal 0/1250  4.34s/item  2 min\n"}
+,{"stream_name":"stdout","time":625.812414533,"data":"  cal 250/1250  1.74s/item  10 min\n"}
+,{"stream_name":"stdout","time":1058.754342236,"data":"  cal 500/1250  1.74s/item  17 min\n"}
+,{"stream_name":"stdout","time":1490.546834885,"data":"  cal 750/1250  1.73s/item  24 min\n"}
+,{"stream_name":"stdout","time":1920.02796285,"data":"  cal 1000/1250  1.73s/item  31 min\n"}
+,{"stream_name":"stdout","time":2350.158282752,"data":"  test 0/2000  1.72s/item  38 min\n"}
+,{"stream_name":"stdout","time":2779.700195211,"data":"  test 250/2000  1.73s/item  45 min\n"}
+,{"stream_name":"stdout","time":3210.722262301,"data":"  test 500/2000  1.72s/item  53 min\n"}
+,{"stream_name":"stdout","time":3640.018131676,"data":"  test 750/2000  1.72s/item  60 min\n"}
+,{"stream_name":"stdout","time":4069.685091247,"data":"  test 1000/2000  1.72s/item  67 min\n"}
+,{"stream_name":"stdout","time":4497.691375545,"data":"  test 1250/2000  1.72s/item  74 min\n"}
+,{"stream_name":"stdout","time":4926.256727952,"data":"  test 1500/2000  1.72s/item  81 min\n"}
+,{"stream_name":"stdout","time":5354.865396247,"data":"  test 1750/2000  1.72s/item  88 min\n"}
+,{"stream_name":"stdout","time":5781.477133831,"data":"{\n"}
+,{"stream_name":"stdout","time":5781.477189781,"data":"  \"model\": \"Qwen/Qwen2.5-VL-3B-Instruct\",\n"}
+,{"stream_name":"stdout","time":5781.477198062,"data":"  \"data\": \"lmms-lab/RefCOCO (cal: val; eval: testA+testB)\",\n"}
+,{"stream_name":"stdout","time":5781.477203775,"data":"  \"neg_rate\": 0.25,\n"}
+,{"stream_name":"stdout","time":5781.477209511,"data":"  \"n_cal\": 1250,\n"}
+,{"stream_name":"stdout","time":5781.477214195,"data":"  \"n_test\": 2000,\n"}
+,{"stream_name":"stdout","time":5781.47721858,"data":"  \"prefill\": \"```json\\n[\\n\\t{\\\"bbox_2d\\\": [\",\n"}
+,{"stream_name":"stdout","time":5781.477223605,"data":"  \"results\": {\n"}
+,{"stream_name":"stdout","time":5781.477227935,"data":"    \"present\": {\n"}
+,{"stream_name":"stdout","time":5781.477232389,"data":"      \"n\": 1600,\n"}
+,{"stream_name":"stdout","time":5781.477247359,"data":"      \"acc_iou0.5\": 0.8631,\n"}
+,{"stream_name":"stdout","time":5781.47725113,"data":"      \"mean_iou\": 0.7876,\n"}
+,{"stream_name":"stdout","time":5781.477254183,"data":"      \"parse_rate\": 0.9988,\n"}
+,{"stream_name":"stdout","time":5781.477257204,"data":"      \"box_conf_ece_raw\": 0.182,\n"}
+,{"stream_name":"stdout","time":5781.477260318,"data":"      \"box_conf_ece_calibrated\": 0.0,\n"}
+,{"stream_name":"stdout","time":5781.477263447,"data":"      \"acc_at_coverage_0.8\": 0.8625,\n"}
+,{"stream_name":"stdout","time":5781.477266513,"data":"      \"acc_at_coverage_0.5\": 0.87,\n"}
+,{"stream_name":"stdout","time":5781.477269583,"data":"      \"mean_generated_tokens\": 17.7\n"}
+,{"stream_name":"stdout","time":5781.477272701,"data":"    },\n"}
+,{"stream_name":"stdout","time":5781.477276681,"data":"    \"existence\": {\n"}
+,{"stream_name":"stdout","time":5781.47729474,"data":"      \"temperature\": 0.1,\n"}
+,{"stream_name":"stdout","time":5781.477300385,"data":"      \"auroc\": 0.9445,\n"}
+,{"stream_name":"stdout","time":5781.477305284,"data":"      \"abstain_rate_absent\": 0.875,\n"}
+,{"stream_name":"stdout","time":5781.477327691,"data":"      \"wrongful_abstain_rate_present\": 0.1037,\n"}
+,{"stream_name":"stdout","time":5781.477332632,"data":"      \"ece\": 0.0984\n"}
+,{"stream_name":"stdout","time":5781.477337035,"data":"    },\n"}
+,{"stream_name":"stdout","time":5781.477341234,"data":"    \"end_to_end\": {\n"}
+,{"stream_name":"stdout","time":5781.477355034,"data":"      \"n\": 2000,\n"}
+,{"stream_name":"stdout","time":5781.47735872,"data":"      \"accuracy\": 0.805,\n"}
+,{"stream_name":"stdout","time":5781.477362301,"data":"      \"decision_conf_ece\": 0.0754,\n"}
+,{"stream_name":"stdout","time":5781.477365875,"data":"      \"acc_at_coverage_0.8\": 0.7981,\n"}
+,{"stream_name":"stdout","time":5781.477369649,"data":"      \"box_only_accuracy_if_never_abstaining\": 0.6905\n"}
+,{"stream_name":"stdout","time":5781.477379471,"data":"    },\n"}
+,{"stream_name":"stdout","time":5781.477382094,"data":"    \"seconds_per_item\": 1.716\n"}
+,{"stream_name":"stdout","time":5781.4773845,"data":"  },\n"}
+,{"stream_name":"stdout","time":5781.477386821,"data":"  \"total_minutes\": 95.5\n"}
+,{"stream_name":"stdout","time":5781.477389966,"data":"}\n"}
+,{"stream_name":"stderr","time":5787.699692899,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":5787.699725133,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":5787.926358254,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":5787.926388112,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":5788.68992918,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":5789.681951662,"data":"[NbConvertApp] Writing 351358 bytes to __results__.html\n"}
+]

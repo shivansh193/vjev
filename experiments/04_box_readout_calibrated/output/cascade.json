@@ -1,0 +1,55 @@
+{
+  "abstain_threshold": 0.6,
+  "timing_assumed": {
+    "noul_s": 0.3,
+    "box_s": 1.45
+  },
+  "cascade": {
+    "band": [
+      0.75,
+      0.8
+    ],
+    "accuracy": 0.83,
+    "decision_conf_ece": 0.031,
+    "decision_auroc": 0.792,
+    "acc_at_coverage_0.8": 0.8944,
+    "acc_at_coverage_0.5": 0.95,
+    "mirror_rate_when_answering": 0.072,
+    "abstain_rate": 0.1805,
+    "abstain_rate_absent": 0.7825,
+    "wrongful_abstain_rate_present": 0.03,
+    "est_seconds_per_item": 1.574
+  },
+  "always_mirror": {
+    "band": [
+      0.0,
+      1.0
+    ],
+    "accuracy": 0.83,
+    "decision_conf_ece": 0.0327,
+    "decision_auroc": 0.8283,
+    "acc_at_coverage_0.8": 0.91,
+    "acc_at_coverage_0.5": 0.957,
+    "mirror_rate_when_answering": 1.0,
+    "abstain_rate": 0.1805,
+    "abstain_rate_absent": 0.7825,
+    "wrongful_abstain_rate_present": 0.03,
+    "est_seconds_per_item": 2.677
+  },
+  "never_mirror": {
+    "band": [
+      1.1,
+      1.1
+    ],
+    "accuracy": 0.83,
+    "decision_conf_ece": 0.0304,
+    "decision_auroc": 0.7869,
+    "acc_at_coverage_0.8": 0.8919,
+    "acc_at_coverage_0.5": 0.948,
+    "mirror_rate_when_answering": 0.0,
+    "abstain_rate": 0.1805,
+    "abstain_rate_absent": 0.7825,
+    "wrongful_abstain_rate_present": 0.03,
+    "est_seconds_per_item": 1.488
+  }
+}

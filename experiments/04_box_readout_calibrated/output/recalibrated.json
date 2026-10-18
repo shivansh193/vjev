@@ -1,0 +1,45 @@
+{
+  "imputed_items": {
+    "noul_cal": 1,
+    "noul_test": 3,
+    "box_cal": 1,
+    "box_test": 2
+  },
+  "present": {
+    "n": 1600,
+    "acc_iou0.5": 0.8631,
+    "mean_iou": 0.7876,
+    "box_conf_ece_raw_mean_p": 0.1811,
+    "box_conf_ece_calibrated": 0.0261,
+    "box_conf_auroc": 0.8199,
+    "single_feature_auroc": {
+      "box_conf": 0.7006,
+      "min_p": 0.5987,
+      "mean_entropy": 0.7315,
+      "agree": 0.7871
+    },
+    "acc_at_coverage_0.8": 0.9344,
+    "acc_at_coverage_0.5": 0.96
+  },
+  "existence": {
+    "auroc": 0.946,
+    "ece": 0.0267
+  },
+  "box_only_accuracy_if_never_abstaining": 0.6905,
+  "end_to_end_threshold_0.5": {
+    "threshold": 0.5,
+    "accuracy": 0.8265,
+    "decision_conf_ece": 0.0341,
+    "acc_at_coverage_0.8": 0.9106,
+    "abstain_rate_absent": 0.735,
+    "wrongful_abstain_rate_present": 0.0187
+  },
+  "end_to_end_threshold_tuned": {
+    "threshold": 0.6,
+    "accuracy": 0.83,
+    "decision_conf_ece": 0.0327,
+    "acc_at_coverage_0.8": 0.9106,
+    "abstain_rate_absent": 0.7825,
+    "wrongful_abstain_rate_present": 0.03
+  }
+}

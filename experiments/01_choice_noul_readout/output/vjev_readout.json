@@ -1,0 +1,49 @@
+{
+  "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "dataset": "Oxford-IIIT Pets (test)",
+  "n_cal": 300,
+  "n_eval": 1000,
+  "k_options": 5,
+  "choice": {
+    "raw": {
+      "accuracy": 0.97,
+      "ece": 0.0207,
+      "brier": 0.0465,
+      "nll": 0.0903
+    },
+    "rotated": {
+      "accuracy": 0.968,
+      "ece": 0.0183,
+      "brier": 0.0468,
+      "nll": 0.0887
+    },
+    "rotated+T": {
+      "accuracy": 0.968,
+      "ece": 0.0042,
+      "brier": 0.0455,
+      "nll": 0.0805
+    },
+    "temperature": 0.767,
+    "seconds_per_forward": 0.325,
+    "rotations_per_question": 5
+  },
+  "noul": {
+    "raw": {
+      "accuracy": 0.968,
+      "ece": 0.056,
+      "brier": 0.0641,
+      "nll": 0.1305
+    },
+    "raw+T": {
+      "accuracy": 0.968,
+      "ece": 0.0118,
+      "brier": 0.0544,
+      "nll": 0.0998
+    },
+    "temperature": 0.601,
+    "p_yes_mean_true": 0.865,
+    "p_yes_mean_false": 0.066,
+    "seconds_per_question": 0.317
+  },
+  "total_minutes": 43.8
+}

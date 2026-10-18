@@ -1,0 +1,79 @@
+{
+  "box": {
+    "fast": {
+      "acc_iou0.5_present_answered": 0.9167,
+      "acc_iou0.5_present_all": 0.88,
+      "abstain_rate_absent": 0.4933,
+      "wrongful_abstain_rate_present": 0.04,
+      "end_to_end_accuracy": 0.8027,
+      "mean_passes": 0.869,
+      "seconds_per_item": 1.568,
+      "n": 375
+    },
+    "balanced": {
+      "acc_iou0.5_present_answered": 0.9167,
+      "acc_iou0.5_present_all": 0.88,
+      "abstain_rate_absent": 0.4933,
+      "wrongful_abstain_rate_present": 0.04,
+      "end_to_end_accuracy": 0.8027,
+      "mean_passes": 1.24,
+      "seconds_per_item": 2.071,
+      "n": 375
+    }
+  },
+  "choice_pets": {
+    "accuracy": 0.99,
+    "seconds_per_item": 0.34,
+    "n": 100
+  },
+  "multi_question_request": {
+    "answers": {
+      "kind": {
+        "type": "choice",
+        "choice": "person",
+        "confidence": 0.9997,
+        "probabilities": {
+          "person": 0.9997,
+          "animal": 0.0001,
+          "vehicle": 0.0001,
+          "food": 0.0,
+          "furniture": 0.0
+        }
+      },
+      "crowd": {
+        "type": "score",
+        "level": "few",
+        "index": 1,
+        "expected_index": 1.1241,
+        "confidence": 0.7865,
+        "distribution": {
+          "empty": 0.0545,
+          "few": 0.7865,
+          "some": 0.1392,
+          "many": 0.0197
+        }
+      },
+      "outdoor": {
+        "type": "noul",
+        "answer": true,
+        "probability": 0.9906
+      },
+      "target": {
+        "type": "box",
+        "abstained": false,
+        "exists": 0.8726,
+        "box": {
+          "left": 0.1335,
+          "top": 0.2967,
+          "right": 0.4944,
+          "bottom": 0.8654
+        },
+        "confidence": 0.8084,
+        "box_confidence": 0.9264,
+        "passes": 1
+      }
+    },
+    "seconds": 2.681
+  },
+  "total_minutes": 26.8
+}

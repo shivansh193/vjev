@@ -1,0 +1,88 @@
+[{"stream_name":"stdout","time":11.132023473,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 89.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":11.169407279,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 394.3/394.3 kB 19.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":11.207837354,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 604.4/604.4 kB 24.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":11.814035235,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.9/53.9 MB 35.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":11.851552482,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 846.4/846.4 kB 36.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":33.552127358999996,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":33.552158888,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":54.368506658,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":91.601630663,"data":"\rGenerating val split:   0%|          | 0/8811 [00:00\u003c?, ? examples/s]\rGenerating val split:   6%|▌         | 500/8811 [00:00\u003c00:02, 3985.37 examples/s]\rGenerating val split:  15%|█▍        | 1300/8811 [00:00\u003c00:01, 5197.51 examples/s]\rGenerating val split:  25%|██▍       | 2200/8811 [00:00\u003c00:01, 6375.95 examples/s]\rGenerating val split:  33%|███▎      | 2903/8811 [00:00\u003c00:00, 6064.30 examples/s]\rGenerating val split:  41%|████      | 3603/8811 [00:00\u003c00:00, 6169.71 examples/s]\rGenerating val split:  51%|█████     | 4506/8811 [00:00\u003c00:00, 4962.25 examples/s]\rGenerating val split:  59%|█████▉    | 5206/8811 [00:01\u003c00:00, 4654.54 examples/s]\rGenerating val split:  66%|██████▌   | 5806/8811 [00:01\u003c00:00, 4077.84 examples/s]\rGenerating val split:  73%|███████▎  | 6406/8811 [00:01\u003c00:00, 3824.92 examples/s]\rGenerating val split:  80%|███████▉  | 7009/8811 [00:01\u003c00:00, 3679.31 examples/s]\rGenerating val split:  84%|████████▍ | 7409/8811 [00:01\u003c00:00, 3579.37 examples/s]\rGenerating val split:  89%|████████▊ | 7809/8811 [00:01\u003c00:00, 3544.95 examples/s]\rGenerating val split:  93%|█████████▎| 8209/8811 [00:01\u003c00:00, 3497.90 examples/s]\rGenerating val split:  98%|█████████▊| 8609/8811 [00:02\u003c00:00, 3348.15 examples/s]\rGenerating val split: 100%|██████████| 8811/8811 [00:02\u003c00:00, 4146.95 examples/s]\n"}
+,{"stream_name":"stderr","time":93.086322579,"data":"\rGenerating test split:   0%|          | 0/5000 [00:00\u003c?, ? examples/s]\rGenerating test split:   8%|▊         | 400/5000 [00:00\u003c00:01, 3260.92 examples/s]\rGenerating test split:  18%|█▊        | 900/5000 [00:00\u003c00:01, 3387.39 examples/s]\rGenerating test split:  26%|██▌       | 1300/5000 [00:00\u003c00:01, 3495.99 examples/s]\rGenerating test split:  34%|███▍      | 1700/5000 [00:00\u003c00:00, 3482.40 examples/s]\rGenerating test split:  42%|████▏     | 2100/5000 [00:00\u003c00:00, 3466.82 examples/s]\rGenerating test split:  52%|█████▏    | 2600/5000 [00:00\u003c00:00, 3303.02 examples/s]\rGenerating test split:  62%|██████▏   | 3100/5000 [00:00\u003c00:00, 3488.44 examples/s]\rGenerating test split:  70%|███████   | 3500/5000 [00:01\u003c00:00, 3367.02 examples/s]\rGenerating test split:  78%|███████▊  | 3900/5000 [00:01\u003c00:00, 3394.26 examples/s]\rGenerating test split:  86%|████████▌ | 4300/5000 [00:01\u003c00:00, 3359.16 examples/s]\rGenerating test split:  94%|█████████▍| 4700/5000 [00:01\u003c00:00, 3288.15 examples/s]\rGenerating test split: 100%|██████████| 5000/5000 [00:01\u003c00:00, 3373.77 examples/s]\n"}
+,{"stream_name":"stderr","time":93.473472813,"data":"\rGenerating testA split:   0%|          | 0/1975 [00:00\u003c?, ? examples/s]\rGenerating testA split:  25%|██▌       | 500/1975 [00:00\u003c00:00, 3729.00 examples/s]\rGenerating testA split:  71%|███████   | 1400/1975 [00:00\u003c00:00, 5344.38 examples/s]\rGenerating testA split: 100%|██████████| 1975/1975 [00:00\u003c00:00, 5288.51 examples/s]\rGenerating testA split: 100%|██████████| 1975/1975 [00:00\u003c00:00, 5128.44 examples/s]\n"}
+,{"stream_name":"stderr","time":93.806699863,"data":"\rGenerating testB split:   0%|          | 0/1810 [00:00\u003c?, ? examples/s]\rGenerating testB split:  22%|██▏       | 400/1810 [00:00\u003c00:00, 3484.17 examples/s]\rGenerating testB split:  66%|██████▋   | 1200/1810 [00:00\u003c00:00, 4958.12 examples/s]\rGenerating testB split: 100%|██████████| 1810/1810 [00:00\u003c00:00, 5443.41 examples/s]\n"}
+,{"stream_name":"stdout","time":112.048955624,"data":"cal 1250  test 2000  on cuda\n"}
+,{"stream_name":"stderr","time":157.089704391,"data":"\rFetching 2 files:   0%|          | 0/2 [00:00\u003c?, ?it/s]\rFetching 2 files:  50%|█████     | 1/2 [00:42\u003c00:42, 42.20s/it]\rFetching 2 files: 100%|██████████| 2/2 [00:42\u003c00:00, 21.10s/it]\n"}
+,{"stream_name":"stderr","time":161.279963961,"data":"\rLoading weights:   0%|          | 0/824 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/824 [00:00\u003c08:00,  1.71it/s]\rLoading weights:   9%|▉         | 75/824 [00:00\u003c00:05, 145.56it/s]\rLoading weights:  14%|█▍        | 117/824 [00:00\u003c00:04, 156.83it/s]\rLoading weights:  18%|█▊        | 148/824 [00:01\u003c00:04, 145.08it/s]\rLoading weights:  21%|██        | 172/824 [00:01\u003c00:04, 157.68it/s]\rLoading weights:  24%|██▎       | 195/824 [00:01\u003c00:04, 155.47it/s]\rLoading weights:  26%|██▌       | 215/824 [00:01\u003c00:03, 153.75it/s]\rLoading weights:  28%|██▊       | 234/824 [00:01\u003c00:04, 144.80it/s]\rLoading weights:  31%|███       | 256/824 [00:01\u003c00:03, 145.89it/s]\rLoading weights:  34%|███▍      | 279/824 [00:02\u003c00:03, 151.06it/s]\rLoading weights:  37%|███▋      | 303/824 [00:02\u003c00:03, 149.65it/s]\rLoading weights:  40%|███▉      | 327/824 [00:02\u003c00:03, 156.04it/s]\rLoading weights:  42%|████▏     | 344/824 [00:02\u003c00:03, 148.11it/s]\rLoading weights:  44%|████▍     | 364/824 [00:02\u003c00:03, 146.17it/s]\rLoading weights:  46%|████▌     | 379/824 [00:02\u003c00:03, 141.44it/s]\rLoading weights:  49%|████▊     | 401/824 [00:02\u003c00:02, 158.08it/s]\rLoading weights:  51%|█████▏    | 423/824 [00:02\u003c00:02, 161.54it/s]\rLoading weights:  58%|█████▊    | 478/824 [00:03\u003c00:01, 258.00it/s]\rLoading weights:  66%|██████▌   | 540/824 [00:03\u003c00:00, 345.89it/s]\rLoading weights:  72%|███████▏  | 594/824 [00:03\u003c00:00, 398.12it/s]\rLoading weights:  79%|███████▉  | 654/824 [00:03\u003c00:00, 444.83it/s]\rLoading weights:  87%|████████▋ | 714/824 [00:03\u003c00:00, 481.30it/s]\rLoading weights:  93%|█████████▎| 764/824 [00:03\u003c00:00, 478.46it/s]\rLoading weights:  99%|█████████▉| 816/824 [00:03\u003c00:00, 479.73it/s]\rLoading weights: 100%|██████████| 824/824 [00:03\u003c00:00, 220.86it/s]\n"}
+,{"stream_name":"stderr","time":164.02076749,"data":"/usr/local/lib/python3.13/dist-packages/transformers/models/qwen2_vl/image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`\n"}
+,{"stream_name":"stderr","time":164.020820212,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":170.188172467,"data":"  cal 0/1250  6.19s/item  2 min\n"}
+,{"stream_name":"stdout","time":996.104517944,"data":"  cal 250/1250  3.33s/item  16 min\n"}
+,{"stream_name":"stdout","time":1819.715842252,"data":"  cal 500/1250  3.31s/item  29 min\n"}
+,{"stream_name":"stdout","time":2642.96037656,"data":"  cal 750/1250  3.31s/item  43 min\n"}
+,{"stream_name":"stdout","time":3468.249520787,"data":"  cal 1000/1250  3.30s/item  57 min\n"}
+,{"stream_name":"stdout","time":4289.84427663,"data":"  test 0/2000  3.20s/item  71 min\n"}
+,{"stream_name":"stdout","time":5113.651396523,"data":"  test 250/2000  3.31s/item  84 min\n"}
+,{"stream_name":"stdout","time":5936.516485006,"data":"  test 500/2000  3.30s/item  98 min\n"}
+,{"stream_name":"stdout","time":6758.19690782,"data":"  test 750/2000  3.30s/item  112 min\n"}
+,{"stream_name":"stdout","time":7584.659398612,"data":"  test 1000/2000  3.30s/item  126 min\n"}
+,{"stream_name":"stdout","time":8409.536622737,"data":"  test 1250/2000  3.30s/item  139 min\n"}
+,{"stream_name":"stdout","time":9235.238039716,"data":"  test 1500/2000  3.30s/item  153 min\n"}
+,{"stream_name":"stdout","time":10054.858585576,"data":"  test 1750/2000  3.30s/item  167 min\n"}
+,{"stream_name":"stdout","time":10867.772970644,"data":"{\n"}
+,{"stream_name":"stdout","time":10867.773026415,"data":"  \"model\": \"Qwen/Qwen2.5-VL-3B-Instruct\",\n"}
+,{"stream_name":"stdout","time":10867.773033713,"data":"  \"data\": \"lmms-lab/RefCOCO (cal: val; eval: testA+testB)\",\n"}
+,{"stream_name":"stdout","time":10867.773038978,"data":"  \"neg_rate\": 0.25,\n"}
+,{"stream_name":"stdout","time":10867.773049641,"data":"  \"n_cal\": 1250,\n"}
+,{"stream_name":"stdout","time":10867.773053582,"data":"  \"n_test\": 2000,\n"}
+,{"stream_name":"stdout","time":10867.773056838,"data":"  \"prefill\": \"```json\\n[\\n\\t{\\\"bbox_2d\\\": [\",\n"}
+,{"stream_name":"stdout","time":10867.773060489,"data":"  \"results\": {\n"}
+,{"stream_name":"stdout","time":10867.773063649,"data":"    \"present\": {\n"}
+,{"stream_name":"stdout","time":10867.773066887,"data":"      \"n\": 1600,\n"}
+,{"stream_name":"stdout","time":10867.773070009,"data":"      \"acc_iou0.5\": 0.8631,\n"}
+,{"stream_name":"stdout","time":10867.77307322,"data":"      \"mean_iou\": 0.7876,\n"}
+,{"stream_name":"stdout","time":10867.773076307,"data":"      \"parse_rate\": 0.9988,\n"}
+,{"stream_name":"stdout","time":10867.77307951,"data":"      \"box_conf_ece_raw_mean_p\": 0.182,\n"}
+,{"stream_name":"stdout","time":10867.773082706,"data":"      \"box_conf_ece_calibrated\": 0.0,\n"}
+,{"stream_name":"stdout","time":10867.773085821,"data":"      \"box_conf_auroc\": 0.7025,\n"}
+,{"stream_name":"stdout","time":10867.773088949,"data":"      \"single_feature_auroc\": {\n"}
+,{"stream_name":"stdout","time":10867.773092155,"data":"        \"box_conf\": 0.6958,\n"}
+,{"stream_name":"stdout","time":10867.773095261,"data":"        \"min_p\": 0.594,\n"}
+,{"stream_name":"stdout","time":10867.77309837,"data":"        \"mean_entropy\": 0.7268,\n"}
+,{"stream_name":"stdout","time":10867.773110312,"data":"        \"agree\": 0.7861\n"}
+,{"stream_name":"stdout","time":10867.773113216,"data":"      },\n"}
+,{"stream_name":"stdout","time":10867.773115686,"data":"      \"acc_at_coverage_0.8\": 0.8641,\n"}
+,{"stream_name":"stdout","time":10867.773118556,"data":"      \"acc_at_coverage_0.5\": 0.8538,\n"}
+,{"stream_name":"stdout","time":10867.773121078,"data":"      \"mean_generated_tokens\": 17.7\n"}
+,{"stream_name":"stdout","time":10867.773123636,"data":"    },\n"}
+,{"stream_name":"stdout","time":10867.773125993,"data":"    \"existence\": {\n"}
+,{"stream_name":"stdout","time":10867.773128477,"data":"      \"auroc\": 0.6669,\n"}
+,{"stream_name":"stdout","time":10867.77313099,"data":"      \"ece\": 0.0\n"}
+,{"stream_name":"stdout","time":10867.773133431,"data":"    },\n"}
+,{"stream_name":"stdout","time":10867.773135768,"data":"    \"seconds_per_item\": 3.29,\n"}
+,{"stream_name":"stdout","time":10867.773138304,"data":"    \"end_to_end_threshold_0.5\": {\n"}
+,{"stream_name":"stdout","time":10867.773140898,"data":"      \"threshold\": 0.5,\n"}
+,{"stream_name":"stdout","time":10867.773143367,"data":"      \"accuracy\": 0.6905,\n"}
+,{"stream_name":"stdout","time":10867.773145811,"data":"      \"decision_conf_ece\": 0.0,\n"}
+,{"stream_name":"stdout","time":10867.773148322,"data":"      \"acc_at_coverage_0.8\": 0.6894,\n"}
+,{"stream_name":"stdout","time":10867.773150846,"data":"      \"abstain_rate_absent\": 0.0,\n"}
+,{"stream_name":"stdout","time":10867.773153331,"data":"      \"wrongful_abstain_rate_present\": 0.0\n"}
+,{"stream_name":"stdout","time":10867.773155835,"data":"    },\n"}
+,{"stream_name":"stdout","time":10867.773158196,"data":"    \"end_to_end_threshold_tuned\": {\n"}
+,{"stream_name":"stdout","time":10867.773160721,"data":"      \"threshold\": 0.05,\n"}
+,{"stream_name":"stdout","time":10867.773163184,"data":"      \"accuracy\": 0.6905,\n"}
+,{"stream_name":"stdout","time":10867.773165656,"data":"      \"decision_conf_ece\": 0.0,\n"}
+,{"stream_name":"stdout","time":10867.773168146,"data":"      \"acc_at_coverage_0.8\": 0.6894,\n"}
+,{"stream_name":"stdout","time":10867.773170618,"data":"      \"abstain_rate_absent\": 0.0,\n"}
+,{"stream_name":"stdout","time":10867.773173105,"data":"      \"wrongful_abstain_rate_present\": 0.0\n"}
+,{"stream_name":"stdout","time":10867.773175634,"data":"    },\n"}
+,{"stream_name":"stdout","time":10867.773177988,"data":"    \"box_only_accuracy_if_never_abstaining\": 0.6905\n"}
+,{"stream_name":"stdout","time":10867.773180573,"data":"  },\n"}
+,{"stream_name":"stdout","time":10867.773183021,"data":"  \"total_minutes\": 180.2\n"}
+,{"stream_name":"stdout","time":10867.773185507,"data":"}\n"}
+,{"stream_name":"stderr","time":10874.590749131,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":10874.59077699,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":10874.855714187,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":10874.855739233,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":10875.659430129,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":10876.70712595,"data":"[NbConvertApp] Writing 368323 bytes to __results__.html\n"}
+]

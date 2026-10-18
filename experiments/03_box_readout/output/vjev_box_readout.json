@@ -1,0 +1,37 @@
+{
+  "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "data": "lmms-lab/RefCOCO (cal: val; eval: testA+testB)",
+  "neg_rate": 0.25,
+  "n_cal": 1250,
+  "n_test": 2000,
+  "prefill": "```json\n[\n\t{\"bbox_2d\": [",
+  "results": {
+    "present": {
+      "n": 1600,
+      "acc_iou0.5": 0.8631,
+      "mean_iou": 0.7876,
+      "parse_rate": 0.9988,
+      "box_conf_ece_raw": 0.182,
+      "box_conf_ece_calibrated": 0.0,
+      "acc_at_coverage_0.8": 0.8625,
+      "acc_at_coverage_0.5": 0.87,
+      "mean_generated_tokens": 17.7
+    },
+    "existence": {
+      "temperature": 0.1,
+      "auroc": 0.9445,
+      "abstain_rate_absent": 0.875,
+      "wrongful_abstain_rate_present": 0.1037,
+      "ece": 0.0984
+    },
+    "end_to_end": {
+      "n": 2000,
+      "accuracy": 0.805,
+      "decision_conf_ece": 0.0754,
+      "acc_at_coverage_0.8": 0.7981,
+      "box_only_accuracy_if_never_abstaining": 0.6905
+    },
+    "seconds_per_item": 1.716
+  },
+  "total_minutes": 95.5
+}

@@ -1,0 +1,17 @@
+{
+  "id": "shivanshkalra/vjev-box-readout",
+  "title": "vjev-box-readout",
+  "code_file": "vjev_box_readout.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": ["gpu"],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "machine_shape": "NvidiaTeslaT4"
+}

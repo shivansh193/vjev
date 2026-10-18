@@ -1,0 +1,37 @@
+{
+  "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "data": "lmms-lab/RefCOCO (head: val; eval: testA+testB)",
+  "n": {
+    "train": 9750,
+    "cal": 1249,
+    "test": 4731
+  },
+  "neg_rate": 0.25,
+  "bins": 64,
+  "box_head": {
+    "acc_iou0.5": 0.1683,
+    "mean_iou": 0.2666,
+    "box_conf_ece_raw": 0.1681,
+    "box_conf_ece_calibrated": 0.0301,
+    "acc_at_coverage_0.8": 0.1958,
+    "acc_at_coverage_0.5": 0.2437,
+    "existence_auroc": 0.7191,
+    "existence_acc@0.5": 0.8165,
+    "abstain_rate_absent": 0.1342,
+    "false_box_rate_present": 0.0129,
+    "decision_conf_ece": 0.0503,
+    "n_present": 3785,
+    "n_absent": 946
+  },
+  "native_generation_baseline": {
+    "acc_iou0.5": 0.856,
+    "mean_iou": 0.783,
+    "parse_rate": 1.0,
+    "conf_ece": 0.0219,
+    "acc_at_coverage_0.5": 0.936,
+    "seconds_per_item": 2.4,
+    "n": 500
+  },
+  "feature_seconds_per_item": 0.379,
+  "total_minutes": 112.6
+}
