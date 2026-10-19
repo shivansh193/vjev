@@ -1,0 +1,49 @@
+{
+  "choice_pets_10way": {
+    "raw": {
+      "accuracy": 0.95,
+      "ece": 0.0424
+    },
+    "calibrated": {
+      "accuracy": 0.95,
+      "ece": 0.0366
+    },
+    "temperature": 0.754,
+    "n_eval": 300
+  },
+  "choice_pets_26way": {
+    "raw": {
+      "accuracy": 0.7933,
+      "ece": 0.0515
+    },
+    "calibrated": {
+      "accuracy": 0.7933,
+      "ece": 0.0662
+    },
+    "temperature": 0.945,
+    "n_eval": 300
+  },
+  "choice_aokvqa_mc": {
+    "raw": {
+      "accuracy": 0.8255,
+      "ece": 0.0473
+    },
+    "calibrated": {
+      "accuracy": 0.8255,
+      "ece": 0.0439
+    },
+    "temperature": 1.327,
+    "n_eval": 550
+  },
+  "box_clean_absent": {
+    "n_present": 800,
+    "n_absent_clean": 400,
+    "acc_iou0.5_present_all": 0.8438,
+    "abstain_rate_absent_clean": 0.9375,
+    "wrongful_abstain_rate_present": 0.025,
+    "existence_auroc": 0.9921,
+    "end_to_end_accuracy": 0.875,
+    "seconds_per_item": 1.278
+  },
+  "total_minutes": 42.3
+}

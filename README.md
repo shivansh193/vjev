@@ -92,8 +92,20 @@ model's own grounding.
 + 75 absent): box Acc@0.5 0.88 (0.917 when it answers), wrongful abstention 4%,
 measured 1.57 s/item (`fast`) and 2.07 s/item (`balanced`); Pets choice 99% at 0.34 s.
 Absent-target abstention there was 49%: testA expressions all describe people, so a
-borrowed expression is often actually present in the image. A cleaner absent-target
-benchmark is in progress.
+borrowed expression is often actually present in the image.
+
+**Clean benchmarks** (`experiments/06_benchmarks`, preset `fast`, shipped calibration):
+
+| Test | Result |
+|---|---|
+| Box, RefCOCO testA+testB, 800 present + 400 **clean absent** (named COCO category not in the image) | Acc@0.5 84.4%; **abstains on 93.8% of absent, wrongly on 2.5% of present**; existence AUROC **0.992**; end-to-end 87.5%; 1.28 s/item |
+| Choice, Pets 10-way | 95.0%, ECE 0.042 raw / 0.037 calibrated |
+| Choice, Pets 26-way | 79.3%, ECE 0.052 raw / 0.066 calibrated |
+| Choice, A-OKVQA multiple choice | 82.6%, ECE 0.047 raw / 0.044 calibrated |
+
+Calibration on the harder choice sets is ~0.04–0.07 rather than the ~0.004 of the easy
+5-way test, and a single temperature fitted on half the items does not always help
+(26-way). Per-domain calibration on a few hundred labelled items is recommended.
 
 ## How it was built
 
